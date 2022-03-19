@@ -1,0 +1,5 @@
+package com.etiya.reCapProject.core.fileHelper;
+
+public class FileHelperManager {
+
+}

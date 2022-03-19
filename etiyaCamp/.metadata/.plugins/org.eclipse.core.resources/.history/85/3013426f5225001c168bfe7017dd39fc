@@ -1,0 +1,11 @@
+package com.etiya.reCapProject.core.fileHelper;
+
+import com.etiya.reCapProject.entities.requests.carImageRequest.AddCarImagesRequest;
+
+public interface FileHelperService {
+	
+	void addCarImagePathName(AddCarImagesRequest addCarImagesRequest,String imagePathName);
+	
+	
+	
+}

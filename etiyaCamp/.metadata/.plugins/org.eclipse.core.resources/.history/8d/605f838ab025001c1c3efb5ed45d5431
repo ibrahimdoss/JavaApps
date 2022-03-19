@@ -1,0 +1,5 @@
+package com.etiya.reCapProject.core.config;
+
+public class ModelMapperConfig {
+
+}

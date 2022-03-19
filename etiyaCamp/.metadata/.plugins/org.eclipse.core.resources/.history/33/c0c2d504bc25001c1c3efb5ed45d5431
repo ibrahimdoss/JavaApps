@@ -1,0 +1,17 @@
+package com.etiya.reCapProject.entities.dtos;
+
+import lombok.Data;
+
+@Data
+public class IndividualCustomerDto {
+	
+	private int id;
+
+	private String identityNumber;
+	
+	private String firstName;
+	
+	private String lastName;
+
+
+}

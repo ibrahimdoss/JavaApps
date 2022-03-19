@@ -1,0 +1,43 @@
+package com.etiya.reCapProject.dataAccess.abstracts;
+
+import java.util.List;
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import com.etiya.reCapProject.entities.concretes.Car;
+import com.etiya.reCapProject.entities.dtos.CarDetailsDto;
+import com.etiya.reCapProject.entities.dtos.CarWithCarImagesDetailsDto;
+
+@Repository
+public interface CarDao extends JpaRepository<Car, Integer>{
+	
+	
+	@Query("Select new com.etiya.reCapProject.entities.dtos.CarDetailsDto"
+			+ " (c.carName, b.brandName , cl.colorName, c.dailyPrice) " 
+			+ " From Brand b Inner Join b.cars c"
+			+ " Inner Join c.color cl")
+	List<CarDetailsDto> getCarWithDetails();
+	
+	boolean existsByCarImagesIsNullAndCarId(int carId);
+	
+	boolean existsByCarImagesIsNull();
+	
+
+	List<Car> getByBrand_brandId(int brandId);
+	
+	List<Car> getByColor_colorId(int colorId);
+	
+	
+	@Query("select new com.etiya.reCapProject.entities.dtos.CarWithCarImagesDetailsDto"
+			+ " ( c.carId,b.brandName,cl.colorName,c.dailyPrice, ci.imagePath) "
+			+ "From Car c Inner Join c.brand b Inner Join c.color"
+			+ " cl Inner Join c.carImages ci Where c.carId=:carId ")
+	List<CarWithCarImagesDetailsDto> getCarWithCarImagesDetails(int carId);
+	
+	
+	
+	
+}

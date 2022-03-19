@@ -1,0 +1,14 @@
+package com.etiya.reCapProject.entities.dtos;
+
+public class GetAllAdditionalServiceDto {
+	
+	private int additionalId;
+	
+	private String additionalName;
+	
+	private double additionalPrice;
+	
+	private int rentAlId;
+
+
+}

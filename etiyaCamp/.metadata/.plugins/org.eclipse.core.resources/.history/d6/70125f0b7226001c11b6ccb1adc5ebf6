@@ -1,0 +1,9 @@
+package com.etiya.reCapProject.entities.dtos;
+
+public class InvoiceDetailDto {
+	
+	private int invoiceId;
+	
+	private int invoiceNumber;
+
+}

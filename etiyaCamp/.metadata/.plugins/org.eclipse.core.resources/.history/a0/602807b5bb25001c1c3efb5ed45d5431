@@ -1,0 +1,8 @@
+package com.etiya.reCapProject.entities.dtos;
+
+public class IndividualCustomerDto {
+	
+	
+	private String identityNumber;
+
+}

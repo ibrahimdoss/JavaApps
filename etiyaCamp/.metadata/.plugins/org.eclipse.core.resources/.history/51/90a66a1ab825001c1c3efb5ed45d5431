@@ -1,0 +1,14 @@
+
+package com.etiya.reCapProject.entities.dtos;
+
+public class CorporateCustomerDto {
+	
+	
+	private int id;
+
+	private String taxNumber;
+	
+	private String companyName;
+	
+
+}

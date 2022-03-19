@@ -1,0 +1,7 @@
+package com.etiya.reCapProject.entities.dtos;
+
+public class CarImageDto {
+	
+	private String imagePath;
+
+}

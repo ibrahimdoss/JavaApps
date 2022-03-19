@@ -1,0 +1,18 @@
+package com.etiya.reCapProject.entities.dtos;
+
+import lombok.Data;
+
+@Data
+public class CarCareDto {
+	
+	private int careId;
+	
+	private String location;
+	
+	private String startDate;
+	
+	private String finishDate;
+	
+	private int carId;
+
+}

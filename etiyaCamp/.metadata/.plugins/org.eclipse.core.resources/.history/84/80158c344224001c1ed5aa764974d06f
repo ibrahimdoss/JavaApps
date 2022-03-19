@@ -1,0 +1,7 @@
+package com.etiya.reCapProject.entities.dtos;
+
+public class AdditionalServiceDto {
+	private int additionalId;
+	
+	private double additionalPrice
+}

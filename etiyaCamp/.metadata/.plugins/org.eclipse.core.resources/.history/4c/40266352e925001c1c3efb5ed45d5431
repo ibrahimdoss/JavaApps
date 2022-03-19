@@ -1,0 +1,19 @@
+package com.etiya.reCapProject.entities.dtos;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class GetAllAdditionalServiceDto {
+	
+	private int additionalId;
+	
+	private String additionalName;
+	
+	private double additionalPrice;
+	
+	private int rentAlId;
+
+
+}

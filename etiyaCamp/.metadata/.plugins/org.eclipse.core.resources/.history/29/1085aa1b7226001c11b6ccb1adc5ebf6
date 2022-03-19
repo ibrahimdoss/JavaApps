@@ -1,0 +1,17 @@
+package com.etiya.reCapProject.entities.dtos;
+
+import java.util.Date;
+
+public class InvoiceDetailDto {
+	
+	private int invoiceId;
+	
+	private int invoiceNumber;
+	
+	private Date rentDate;
+	
+	private Date returnDate;
+	
+	private Date invoiceDate;
+
+}

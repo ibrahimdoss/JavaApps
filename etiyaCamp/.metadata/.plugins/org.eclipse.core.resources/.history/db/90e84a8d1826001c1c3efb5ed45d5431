@@ -1,0 +1,19 @@
+package com.etiya.reCapProject.entities.dtos;
+
+import java.util.Date;
+
+public class RentalDetailDto {
+	
+	private Date rentDate;
+	
+	private Date returnDate;
+	
+	private String takeCity;
+	
+	private String returnCity;
+	
+	private int startKilometer;
+	
+	private int endKilometer;
+
+}

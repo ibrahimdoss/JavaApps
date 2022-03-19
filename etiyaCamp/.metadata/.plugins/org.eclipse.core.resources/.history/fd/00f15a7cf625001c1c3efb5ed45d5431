@@ -1,0 +1,11 @@
+package com.etiya.reCapProject.entities.dtos;
+
+import java.util.Date;
+
+public class CarImageDto {
+	
+	private String imagePath;
+	
+	private Date date;
+
+}

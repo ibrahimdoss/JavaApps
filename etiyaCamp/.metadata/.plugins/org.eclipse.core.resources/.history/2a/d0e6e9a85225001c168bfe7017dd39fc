@@ -1,0 +1,8 @@
+package com.etiya.reCapProject.core.fileHelper;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class FileHelperManager {
+
+}

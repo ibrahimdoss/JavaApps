@@ -1,0 +1,9 @@
+package com.etiya.reCapProject.entities.dtos;
+
+import java.util.Date;
+
+public class RentalDetailDto {
+	
+	private Date rentDate;
+
+}

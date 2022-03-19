@@ -1,0 +1,7 @@
+package com.etiya.reCapProject.entities.dtos;
+
+public class ColorDto {
+	
+	private int colorId;
+
+}

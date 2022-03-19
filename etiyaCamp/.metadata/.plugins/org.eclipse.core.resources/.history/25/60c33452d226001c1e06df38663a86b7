@@ -1,0 +1,10 @@
+package com.etiya.reCapProject.entities.dtos;
+
+public class ApplicationUserDto {
+	
+	private int id;
+	
+	private String eMail;
+	
+	private String password;
+}

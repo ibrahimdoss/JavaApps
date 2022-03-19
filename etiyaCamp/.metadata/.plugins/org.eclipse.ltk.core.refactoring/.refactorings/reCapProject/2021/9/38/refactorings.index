@@ -1,0 +1,30 @@
+1631780631258	Rename type 'Color'
+1631787596674	Rename package 'com.etiya.reCapProject.api'
+1631787643028	Rename package 'com.etiya.reCapProject.api.Controller'
+1631787653670	Rename type 'CarControllers'
+1631814051235	Move compilation unit
+1631818191190	Rename type 'CustomersController'
+1631818197071	Rename type 'RentAlsController'
+1631865752866	Move compilation unit
+1631865788228	Move compilation unit
+1631874386031	Move compilation unit
+1631874513907	Move compilation unit
+1631874738034	Rename type 'UserDao'
+1631877277793	Delete element
+1631878972961	Rename type 'UserService'
+1631878983642	Rename type 'UserManager'
+1631969714520	Delete element
+1631969718707	Delete element
+1631969723695	Delete element
+1631969727707	Delete element
+1631971109359	Delete element
+1631971130915	Delete element
+1631971145781	Delete element
+1631971738061	Rename type 'ImageDao'
+1632048925104	Delete element
+1632048928499	Delete element
+1632048931920	Delete element
+1632048936021	Delete element
+1632048938730	Delete element
+1632048941373	Delete element
+1632048944377	Delete element

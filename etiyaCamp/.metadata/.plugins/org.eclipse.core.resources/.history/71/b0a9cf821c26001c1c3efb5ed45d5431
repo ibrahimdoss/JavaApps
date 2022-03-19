@@ -1,0 +1,9 @@
+package com.etiya.reCapProject.entities.dtos;
+
+public class GetCarDetailDto {
+	
+	private String carName;
+	private String brandName;
+	private String colorName;
+	private double dailyPrice;
+}

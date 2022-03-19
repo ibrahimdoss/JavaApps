@@ -1,0 +1,15 @@
+package com.etiya.reCapProject.entities.dtos;
+
+public class CarCareDto {
+	
+	private int careId;
+	
+	private String location;
+	
+	private String startDate;
+	
+	private String finishDate;
+	
+	private int carId;
+
+}

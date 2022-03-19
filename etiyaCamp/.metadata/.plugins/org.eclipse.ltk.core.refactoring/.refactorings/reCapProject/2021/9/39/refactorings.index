@@ -1,0 +1,46 @@
+1632126597967	Rename type 'UserLogin'
+1632134843438	Delete element
+1632226825714	Delete element
+1632226831137	Delete element
+1632226840156	Delete element
+1632241935468	Rename type 'UpdateCredirCardRequest'
+1632301514055	Rename type 'Customers'
+1632302115080	Rename package 'com.etiya.reCapProject.entities.requests.BrandRequest'
+1632302123894	Rename package 'com.etiya.reCapProject.entities.requests.CarImageRequest'
+1632302290217	Move compilation unit
+1632302296837	Move compilation unit
+1632302303566	Move compilation unit
+1632302309588	Move compilation unit
+1632302315729	Move compilation unit
+1632302319925	Move compilation unit
+1632302329007	Move compilation unit
+1632302333318	Move compilation unit
+1632302336831	Move compilation unit
+1632302340720	Move compilation unit
+1632302344546	Move compilation unit
+1632302347859	Move compilation unit
+1632302354938	Move compilation unit
+1632302359590	Move compilation unit
+1632302362543	Move compilation unit
+1632302369282	Move compilation unit
+1632302374677	Move compilation unit
+1632302378892	Move compilation unit
+1632302818392	Delete element
+1632302822939	Delete element
+1632302829309	Delete element
+1632302880080	Delete element
+1632302984186	Rename type 'AddCustomerRequest'
+1632302998885	Rename type 'DeleteCustomerRequest'
+1632303013838	Rename type 'UpdateCustomerRequest'
+1632303029103	Move compilation unit
+1632303031670	Move compilation unit
+1632303034766	Move compilation unit
+1632303102346	Rename type 'DeleteIndividualCustomer'
+1632304051105	Rename type 'Users'
+1632313011715	Rename type 'UpdateIndividualRequest'
+1632313506841	Delete element
+1632314292219	Delete element
+1632314600196	Rename compilation unit 'FİndeksServiceAdapter.java'
+1632320214094	Delete element
+1632320362031	Delete element
+1632559895639	Rename type 'Maintenance'

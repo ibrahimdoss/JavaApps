@@ -1,0 +1,11 @@
+package com.etiya.reCapProject.business.constants.messages;
+
+public class ColorMessages {
+	
+	public static final String Add = "Renk Eklendi.";
+    public static final String Delete = "Renk Silindi.";
+    public static final String Update = "Renk Güncellendi.";
+    public static final String GetAll = "Renkleri listeleme işlemi gerçekleşti.";
+    public static final String GetById = "Renk Id'ye göre listelendi.";
+    public static final String ErrorCheckColorName = "Böyle bir renk zaten mevcut";
+}

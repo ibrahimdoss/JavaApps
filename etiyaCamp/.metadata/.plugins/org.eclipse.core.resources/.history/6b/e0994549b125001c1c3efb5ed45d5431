@@ -1,0 +1,9 @@
+package com.etiya.reCapProject.entities.dtos;
+
+public class BrandDto {
+	
+	private int brandId;
+	
+	private String brandName;
+
+}
